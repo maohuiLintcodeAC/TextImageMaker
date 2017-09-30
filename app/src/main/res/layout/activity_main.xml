@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="textimagemaker.hooyee.com.textimagemaker.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_radius"
+        android:drawableTint="@color/colorAccent"
+        android:gravity="top"
+        android:hint="待输入..."
+        android:minLines="5"
+        android:padding="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_preview"
+            android:text="@string/preview"
+            android:layout_margin="8dp"
+            android:background="@drawable/background_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+        <Button
+            android:id="@+id/bt_clear"
+            android:text="@string/clear"
+            android:layout_margin="8dp"
+            android:background="@drawable/background_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/bt_preview" />
+
+    </RelativeLayout>
+
+</LinearLayout>
