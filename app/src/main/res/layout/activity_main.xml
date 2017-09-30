@@ -4,9 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="textimagemaker.hooyee.com.textimagemaker.MainActivity">
+    tools:context="textimagemaker.hooyee.com.textimagemaker.main.MainActivity">
 
     <EditText
+        android:id="@+id/et_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -21,6 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <ImageView
+            android:id="@+id/iv_align_policy"
+            android:src="@drawable/align_left"
+            android:layout_margin="16dp"
+            android:layout_centerVertical="true"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+
         <Button
             android:id="@+id/bt_preview"
             android:text="@string/preview"
@@ -29,6 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true" />
+
         <Button
             android:id="@+id/bt_clear"
             android:text="@string/clear"
@@ -39,5 +49,12 @@
             android:layout_toLeftOf="@id/bt_preview" />
 
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_preview"
+        android:layout_weight="1"
+        android:src="@color/bt_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
 
 </LinearLayout>
