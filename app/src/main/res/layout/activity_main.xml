@@ -13,7 +13,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/border_radius"
         android:drawableTint="@color/colorAccent"
-        android:gravity="top"
+        android:gravity="left"
         android:hint="待输入..."
         android:minLines="5"
         android:padding="5dp" />
@@ -24,7 +24,7 @@
 
         <ImageView
             android:id="@+id/iv_align_policy"
-            android:src="@drawable/align_left"
+            android:src="@drawable/align_center"
             android:layout_margin="16dp"
             android:layout_centerVertical="true"
             android:layout_width="32dp"
@@ -32,6 +32,7 @@
 
         <Button
             android:id="@+id/bt_preview"
+            android:hint="点击查看效果"
             android:text="@string/preview"
             android:layout_margin="8dp"
             android:background="@drawable/background_bt"

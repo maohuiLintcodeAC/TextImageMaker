@@ -1,5 +1,6 @@
 package textimagemaker.hooyee.com.textimagemaker.main;
 
+import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 
 /**
@@ -19,5 +20,11 @@ public interface MainContract {
         void clearContent();
 
         void updatePreview(Drawable drawable);
+
+        void updateAlignPolicy();
+
+        Bitmap getPreviewBitmap();
+
+        int getAlignPolicy();
     }
 }
