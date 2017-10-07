@@ -13,4 +13,6 @@
     <string name="pick_color_bg">pick the color of picture</string>
     <string name="pick_color_text">pick the color of text</string>
     <string name="click_me">click me</string>
+    <string name="save">save</string>
+    <string name="share">share</string>
 </resources>

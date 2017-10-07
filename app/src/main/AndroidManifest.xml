@@ -9,11 +9,17 @@
     <application
         android:name=".AppApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="59d85de44ad1560d4d000019" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="google play" />
 
         <provider
             android:authorities="textimagemaker.hooyee.com.textimagemaker.fileprovider"

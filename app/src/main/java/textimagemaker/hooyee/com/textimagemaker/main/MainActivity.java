@@ -7,14 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.animation.AnticipateOvershootInterpolator;
-import android.view.animation.BounceInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.umeng.analytics.MobclickAgent;
 
 import textimagemaker.hooyee.com.textimagemaker.Constants;
 import textimagemaker.hooyee.com.textimagemaker.R;
@@ -79,7 +78,14 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     @Override
     protected void onResume() {
         super.onResume();
+        MobclickAgent.onResume(this);
         mPreviewIv.setBackgroundColor(FlagModel.getInt(this, Constants.BG_COLOR, getResources().getColor(R.color.bt_color)));
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 
     @Override

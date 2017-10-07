@@ -13,4 +13,6 @@
     <string name="pick_color_bg">选取图片颜色</string>
     <string name="pick_color_text">选取文字颜色</string>
     <string name="click_me">点我</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
 </resources>
