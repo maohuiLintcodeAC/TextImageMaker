@@ -10,6 +10,8 @@ Make the text that you input to be picture , so you can more to publish content 
 3. can A key to social networking or friend;
 4. custom text location
 
+#### Snapshots
+
 ![](./snapshoot/1.png)
 ![](./snapshoot/2.png)
 ![](./snapshoot/3.png)
