@@ -50,7 +50,7 @@ public class Util {
         return true;
     }
 
-    public static void requestPermissions(Context context, String[] permissions) {
+    public static void requestPermissions(Context context, String... permissions) {
         if (Build.VERSION.SDK_INT < 23) {
             return;
         }

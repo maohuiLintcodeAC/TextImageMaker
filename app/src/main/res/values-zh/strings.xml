@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">文字制成图片</string>
+    <string name="clear">清空</string>
+    <string name="preview">预览</string>
+    <string name="input">待输入...</string>
+    <string name="tip">点击查看效果</string>
+    <string name="background_color">图片颜色</string>
+    <string name="text_color">文字颜色</string>
+    <string name="tip_save">请先保存</string>
+    <string name="saved">已保存</string>
+    <string name="succeed_save">保存成功</string>
+    <string name="failed_save">保存失败</string>
+    <string name="pick_color_bg">选取图片颜色</string>
+    <string name="pick_color_text">选取文字颜色</string>
+    <string name="click_me">点我</string>
+</resources>

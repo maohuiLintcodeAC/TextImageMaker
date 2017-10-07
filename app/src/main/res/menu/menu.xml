@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item  android:id="@+id/set_bg_color"  android:title="背景颜色"/>
-    <item  android:id="@+id/set_text_color"  android:title="字体颜色"/>
+    <item  android:id="@+id/set_bg_color"  android:title="@string/background_color"/>
+    <item  android:id="@+id/set_text_color"  android:title="@string/text_color"/>
 </menu>

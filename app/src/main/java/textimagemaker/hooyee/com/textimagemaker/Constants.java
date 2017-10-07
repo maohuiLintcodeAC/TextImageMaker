@@ -8,7 +8,7 @@ import android.os.Environment;
  */
 
 public class Constants {
-    public static final String PATH_DIR = Environment.getExternalStorageDirectory() + "/image/";
+    public static final String PATH_DIR = Environment.getExternalStorageDirectory() + "/textImage/";
     public static final String BG_COLOR = "bg_color";
     public static final String TEXT_COLOR = "text_color";
 }

@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">TextImageMaker</string>
-    <string name="clear">清空</string>
-    <string name="preview">预览</string>
+    <string name="clear">clear</string>
+    <string name="preview">preview</string>
+    <string name="input">wait input...</string>
+    <string name="tip">click to preview</string>
+    <string name="background_color">picture color</string>
+    <string name="text_color">text-color of picture</string>
+    <string name="tip_save">please to save, first</string>
+    <string name="saved">had saved</string>
+    <string name="succeed_save">succeed to save</string>
+    <string name="failed_save">failed to save</string>
+    <string name="pick_color_bg">pick the color of picture</string>
+    <string name="pick_color_text">pick the color of text</string>
+    <string name="click_me">click me</string>
 </resources>

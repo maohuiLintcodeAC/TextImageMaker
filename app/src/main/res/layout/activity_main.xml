@@ -14,7 +14,7 @@
         android:background="@drawable/border_radius"
         android:drawableTint="@color/colorAccent"
         android:gravity="left"
-        android:hint="待输入..."
+        android:hint="@string/input"
         android:minLines="5"
         android:padding="5dp" />
 
@@ -24,38 +24,53 @@
 
         <ImageView
             android:id="@+id/iv_align_policy"
-            android:src="@drawable/align_center"
-            android:layout_margin="16dp"
-            android:layout_centerVertical="true"
             android:layout_width="32dp"
-            android:layout_height="32dp" />
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/align_center" />
 
         <Button
             android:id="@+id/bt_preview"
-            android:hint="点击查看效果"
-            android:text="@string/preview"
-            android:layout_margin="8dp"
-            android:background="@drawable/background_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/background_bt"
+            android:hint="@string/tip"
+            android:text="@string/preview" />
 
         <Button
             android:id="@+id/bt_clear"
-            android:text="@string/clear"
-            android:layout_margin="8dp"
-            android:background="@drawable/background_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/bt_preview" />
+            android:layout_margin="8dp"
+            android:layout_toLeftOf="@id/bt_preview"
+            android:background="@drawable/background_bt"
+            android:text="@string/clear" />
 
     </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/iv_preview"
-        android:layout_weight="1"
-        android:background="@color/bt_color"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp" />
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tx_tip"
+            android:gravity="center"
+            android:alpha="0"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bubble"
+            android:text="@string/click_me" />
+    </RelativeLayout>
 
 </LinearLayout>
